@@ -100,3 +100,27 @@ header {
     border: none;
     margin-top: 1rem;
 }
+
+.errText {
+    width: 4rem;
+    color: #ffffff;
+    font-size: 0.36rem;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: none;
+}
+
+.errImg {
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0.5rem auto;
+}
+
+.errText p {
+    margin: 0.5rem 0;
+}
