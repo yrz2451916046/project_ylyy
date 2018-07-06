@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找回密码</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reg/reg.css">
+</head>
+
+<body>
+    <header class="center">
+        <span id="reg-return">
+            <img class="icon-center return-resize" src="./images/reg_icon/Path@3x.png" alt="">
+        </span> 找回密码
+    </header>
+    <div class="reg-main">
+        <div class="reg-logo">
+            <img src="./images/reg_icon/LOGO@3x.png" alt="logo">
+        </div>
+        <form class="reg-form" action="javascript:;">
+            <div class="reg-input-outdiv">
+                <input type="text" name="phone" placeholder="请输入手机号">
+            </div>
+            <div class="reg-input-outdiv" id="vesCode">
+                <input type="text" name="vesCode" placeholder="短信验证码">
+                <button type="button" id="getVesCode">获取验证码</button>
+            </div>
+            <div class="reg-input-outdiv">
+                <input type="password" name="password" placeholder="设置密码">
+            </div>
+            <button id="findpwdSub" class="reg-submit" type="submit">完成</button>
+        </form>
+    </div>
+    <script src="./plugins/rem.js"></script>
+    <script src="./plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="./js/timeout.js"></script>
+    <script src="./js/findpwd/findpwd.js"></script>
+</body>
+
+</html>
