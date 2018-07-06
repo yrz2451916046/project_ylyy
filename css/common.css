@@ -31,3 +31,11 @@ a {
 .icon-center {
     margin: 0 auto;
 }
+
+button {
+    background: rgba(255, 157, 0, 1);
+    border: none;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
