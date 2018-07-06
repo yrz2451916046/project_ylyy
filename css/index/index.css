@@ -1,0 +1,30 @@
+header {
+    color: #ffffff;
+    font-size: 0.32rem;
+    background: #0c0c0c;
+    line-height: 0.8rem;
+    position: relative;
+}
+
+footer {
+    height: 0.98rem;
+    background: pink;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    flex: 1;
+    font-size: 0.2rem;
+}
+
+footer ul li span {
+    display: block;
+}
+
+footer ul li img {
+    width: 0.39rem;
+    height: 0.41rem;
+}
