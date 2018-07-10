@@ -24,6 +24,10 @@ a {
     float: left;
 }
 
+.clear {
+    clear: both
+}
+
 .right {
     float: right;
 }

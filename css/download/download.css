@@ -1,0 +1,57 @@
+           header {
+               height: 0.88rem;
+               color: #ffffff;
+               font-size: 0.32rem;
+               background: #0c0c0c;
+               line-height: 0.88rem;
+               position: relative;
+           }
+           
+           .logo {
+               width: 7.5rem;
+               height: 5.68rem;
+               background: url(../../images/index/bg.png);
+               background-size: cover;
+               text-align: center;
+               padding-top: 0.7rem
+           }
+           
+           .main-logo {
+               width: 1.98rem;
+               height: 1.91rem;
+               display: block;
+               margin: 0 auto
+           }
+           
+           .phone {
+               width: 4.75rem;
+               height: 4.55rem;
+               margin-top: 1.91rem;
+           }
+           
+           .btn-box {
+               width: 100%;
+               margin-top: 2.23rem;
+               position: absolute;
+           }
+           
+           .btn-box button {
+               width: 3.2rem;
+               height: 0.9rem;
+               background: rgba(68, 210, 18, 1);
+               border-radius: 0.08rem;
+               font-size: 0.32rem;
+               color: rgba(255, 255, 255, 1);
+               line-height: 0.9rem;
+               display: block;
+               z-index: 999;
+               margin: 0 auto;
+               margin-bottom: 0.4rem
+           }
+           
+           .btn-box img {
+               width: 0.54rem;
+               height: 0.64rem;
+               float: left;
+               margin: 0.14rem 0 0 0.2rem
+           }
