@@ -482,12 +482,12 @@ nav button {
 .remember-menu li {
     float: left;
     margin-right: 0.2rem;
-    margin-top: 0.26rem
+    margin-top: 0.1rem
 }
 
 .remember-menu li.right {
-    margin-left: 2.17rem;
-    margin-top: 0.1rem
+    float: right;
+    margin-right: 0.53rem
 }
 
 .remember-menu li span {
@@ -495,6 +495,10 @@ nav button {
     /* height: 1rem; */
     /* line-height: 1rem; */
     float: left;
+}
+
+.remember-menu img {
+    vertical-align: middle
 }
 
 .gathering-box {
