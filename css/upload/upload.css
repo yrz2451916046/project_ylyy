@@ -1,0 +1,69 @@
+header {
+    height: 0.88rem;
+    color: #ffffff;
+    font-size: 0.32rem;
+    background: #333333;
+    line-height: 0.88rem;
+    position: relative;
+}
+
+.thirty {
+    font-size: 0.3rem;
+}
+
+#uploadCancel {
+    margin-left: 0.2rem;
+}
+
+#uploadFinish {
+    margin-right: 0.2rem;
+}
+
+.uploadSub {
+    display: block;
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: #FF9D00;
+    color: #ffffff;
+    font-size: 0.28rem;
+    line-height: 0.98rem;
+    border: none;
+    text-align: center;
+}
+
+.uploadMain ul li {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 0.88rem;
+    color: #333333;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    padding: 0 0.4rem;
+}
+
+.uploadMain ul .marginLine {
+    width: 100%;
+    height: 0.12rem;
+    min-height: 0.12rem;
+    background: #F8F8F8;
+    padding: 0;
+}
+
+.uploadMain .red {
+    color: #FF0000;
+}
+
+.choPic {
+    box-sizing: border-box;
+    width: 1.8rem;
+    height: 1.2rem;
+    border: 0.01rem solid #979797;
+    position: relative;
+    background: url(../../images/upload/Group2_3x.png) no-repeat;
+    background-size: 0.4rem 0.4rem;
+    background-position: 0.7rem 0.4rem;
+}
