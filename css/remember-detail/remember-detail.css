@@ -1,348 +1,354 @@
-            body {
-                background: #F8F8F8;
-            }
-            
-            header {
-                color: #ffffff;
-                font-size: 0.32rem;
-                background: #0c0c0c;
-                line-height: 0.8rem;
-                position: relative;
-            }
-            
-            #reg-return {
-                width: 0.8rem;
-                height: 0.8rem;
-                position: absolute;
-                left: 0;
-                top: 0;
-                z-index: 1;
-            }
-            
-            .return-resize {
-                width: 0.15rem;
-                height: 0.26rem;
-            }
-            
-            nav {
-                height: 1rem;
-                line-height: 1rem;
-                background: rgba(255, 255, 255, 1);
-            }
-            
-            nav span {
-                width: 4rem;
-                display: block;
-                float: left;
-                font-size: 0.32rem;
-                margin-left: 0.2rem;
-            }
-            
-            nav button {
-                width: 1rem;
-                height: 0.46rem;
-                line-height: 0.4rem;
-                border-radius: 0.06rem;
-                float: right;
-                margin: 0.27rem 0.2rem;
-            }
-            
-            .content-box {
-                margin-bottom: 0.98rem
-            }
-            
-            .active-box {
-                height: 3.72rem;
-                background: url(../../images/index/banner.png) no-repeat;
-                background-size: cover;
-                position: relative;
-            }
-            
-            .info-box {
-                background: #fff;
-                padding-bottom: 0.34rem
-            }
-            
-            .story-box {
-                padding: 0 0.2rem;
-                height: 2rem;
-            }
-            
-            .story-info {
-                float: left;
-                border-bottom: 0.02rem solid rgba(229, 229, 229, 1);
-            }
-            
-            .story-info p {
-                height: 0.9rem;
-                font-size: 0.32rem;
-                color: rgba(51, 51, 51, 1);
-                line-height: 0.45rem;
-                margin: 0.3rem 0.2rem 0 0.2rem
-            }
-            
-            .story-info ul {
-                width: 3.75rem;
-                padding-left: 0.2rem
-            }
-            
-            .story-info li {
-                float: left;
-                height: 0.6rem;
-                line-height: 0.4rem;
-                margin: 0.16rem 0.2rem 0 0
-            }
-            
-            .story-info li img {
-                width: 0.3rem;
-                height: 0.3rem;
-                vertical-align: middle;
-                margin-right: 0.07rem
-            }
-            
-            .story-info li .eye {
-                width: 0.28rem;
-                height: 0.19rem;
-            }
-            
-            .story-info li span {
-                float: left;
-                font-size: 0.28rem;
-                color: rgba(51, 51, 51, 1);
-            }
-            
-            .story-img {
-                float: right;
-                width: 2rem;
-                height: 2.36rem;
-            }
-            
-            .story-img img {
-                width: 1.2rem;
-                height: 1.2rem;
-                border-radius: 50%;
-                float: right;
-                margin: 0.3rem 0.3rem 0 0
-            }
-            
-            .detail-box {
-                width: 7.1rem;
-                height: 2.83rem;
-                margin: 0 auto;
-                position: relative;
-            }
-            
-            .detail-box ul {
-                float: left;
-                padding: 0.4rem 0 0 0.2rem
-            }
-            
-            .detail-box li {
-                font-size: 0.28rem;
-                line-height: 0.65rem;
-            }
-            
-            .detail-box li img {
-                width: 0.4rem;
-                height: 0.4rem;
-                margin-right: 0.1rem
-            }
-            
-            .relevant {
-                width: 6.7rem;
-                height: 2.54rem;
-                padding: 0 0.4rem;
-                background: rgba(247, 247, 247, 1);
-            }
-            
-            .travel-box {
-                background: #fff;
-            }
-            
-            .travel-header {
-                padding: 0 0.2rem;
-                height: 0.99rem;
-                line-height: 0.99rem;
-            }
-            
-            .travel-header h3 {
-                font-size: 0.32rem;
-                margin-left: 0.2rem;
-            }
-            
-            .introduce-box {
-                padding: 0 0.2rem
-            }
-            
-            .introduce {
-                border-top: 0.02rem solid rgba(229, 229, 229, 1);
-                padding: 0.24rem 0.2rem 0.3rem 0.2rem
-            }
-            
-            .img {
-                height: 3.72rem;
-            }
-            
-            .img img {
-                background-size: cover;
-            }
-            
-            .say {
-                padding: 0 0.4rem
-            }
-            
-            .remember-img {
-                float: right;
-                width: 2rem;
-                height: 2.56rem;
-                position: relative;
-            }
-            
-            .remember-info h3 {
-                font-size: 0.36rem;
-                margin: 0.2rem 0 0.1rem 0;
-                color: rgba(51, 51, 51, 1);
-            }
-            
-            .remember-info p {
-                width: 3.91rem;
-                font-size: 0.3rem;
-                color: rgba(51, 51, 51, 1);
-                line-height: 0.38rem;
-                overflow: hidden;
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                /* margin-top: 0.44rem; */
-            }
-            
-            .remember-img .leader-icon {
-                margin-right: 0.2rem;
-                margin-top: 0.16rem
-            }
-            
-            .remember-img .img {
-                width: 1.4rem;
-                height: 1.4rem;
-                border-radius: 50%;
-                float: right;
-                margin: 0.3rem 0.3rem 0;
-            }
-            
-            .remember-menu li {
-                float: left;
-                margin-right: 0.2rem;
-                margin-top: 0.1rem;
-            }
-            
-            .eye {
-                width: 0.28rem;
-                height: 0.19rem;
-                margin-right: 0.06rem;
-            }
-            
-            .message {
-                width: 0.26rem;
-                height: 0.24rem;
-                margin-right: 0.06rem;
-            }
-            
-            .remember-info {
-                width: 3.91rem;
-                float: left;
-            }
-            
-            .remember-menu li span {
-                font-size: 0.24rem;
-                /* height: 1rem; */
-                /* line-height: 1rem; */
-                float: left;
-            }
-            
-            .relevant-img {
-                width: 2.62rem;
-                height: 1.76rem;
-                float: right;
-                margin-top: 0.4rem;
-                background: url(../../images/index/banner.png)
-            }
-            
-            .name {
-                width: 1.44rem;
-                height: 0.33rem;
-                font-size: 0.24rem;
-                color: rgba(51, 51, 51, 1);
-                line-height: 0.33rem;
-                float: right;
-                margin: 0.06rem 0.3rem 0 0;
-                text-align: center
-            }
-            
-            .level-icon {
-                width: 0.6rem;
-                height: 0.35rem;
-                float: right;
-                position: absolute;
-                top: 0.3rem;
-                background: url(../../images/index/GroupCopy.png) no-repeat;
-                background-size: cover;
-                font-size: 0.18rem;
-                color: rgba(255, 255, 255, 1);
-                line-height: 0.35rem;
-                text-align: right;
-                padding: 0 0.1rem 0 0.2rem;
-                margin: 0.05rem 0.53rem 0 0
-            }
-            
-            .follow {
-                width: 1rem;
-                float: right;
-                display: inline-block;
-                font-size: 0.24rem;
-                margin-right: 0.43rem;
-            }
-            
-            .follow img {
-                width: 0.26rem;
-                height: 0.24rem;
-                margin-right: 0.04rem;
-                vertical-align: middle;
-                ;
-            }
-            
-            footer {
-                position: fixed;
-                width: 100%;
-                height: 0.98rem;
-                background: rgba(255, 255, 255, 1);
-                bottom: 0;
-                left: 0;
-                z-index: 2;
-                border-top: 0.01rem solid #F2F2F2;
-            }
-            
-            footer ul {
-                height: 0.98rem;
-                display: flex;
-            }
-            
-            footer ul li {
-                height: 100%;
-                text-align: center;
-                flex: 1;
-                font-size: 0.2rem;
-            }
-            
-            footer ul li span {
-                display: block;
-            }
-            
-            footer ul li span:nth-child(2) {
-                line-height: 0.3rem
-            }
-            
-            footer ul li img {
-                width: 0.42rem;
-                height: 0.42rem;
-                margin-top: 0.1rem
-            }
+body {
+    background: #F8F8F8;
+}
+
+header {
+    color: #ffffff;
+    font-size: 0.32rem;
+    background: #0c0c0c;
+    line-height: 0.8rem;
+    position: relative;
+}
+
+#reg-return {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.return-resize {
+    width: 0.15rem;
+    height: 0.26rem;
+}
+
+nav {
+    height: 1rem;
+    line-height: 1rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+nav span {
+    width: 4rem;
+    display: block;
+    float: left;
+    font-size: 0.32rem;
+    margin-left: 0.2rem;
+}
+
+nav button {
+    display: inline-block;
+    width: 1.4rem;
+    font-size: 0.3rem;
+    height: 0.6rem;
+    line-height: 0.4rem;
+    border-radius: 0.06rem;
+    float: right;
+    margin: 0.2rem 0.2rem;
+}
+
+.content-box {
+    margin-bottom: 0.98rem
+}
+
+.active-box {
+    height: 3.72rem;
+    background: url(../../images/index/banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.info-box {
+    background: #fff;
+    padding-bottom: 0.34rem
+}
+
+.story-box {
+    padding: 0 0.2rem;
+    height: 2rem;
+}
+
+.story-info {
+    float: left;
+    border-bottom: 0.02rem solid rgba(229, 229, 229, 1);
+}
+
+.story-info p {
+    height: 0.9rem;
+    font-size: 0.32rem;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.45rem;
+    margin: 0.3rem 0.2rem 0 0.2rem
+}
+
+.story-info ul {
+    width: 3.75rem;
+    padding-left: 0.2rem;
+    height: 0.6rem;
+}
+
+.story-info li {
+    float: left;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin: 0 0.2rem 0 0
+}
+
+.story-info li img {
+    width: 0.3rem;
+    height: 0.3rem;
+    vertical-align: middle;
+    margin-right: 0.07rem
+}
+
+.story-info li .eye {
+    width: 0.28rem;
+    height: 0.19rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+.story-info li span {
+    float: left;
+    font-size: 0.28rem;
+    color: rgba(51, 51, 51, 1);
+}
+
+.story-img {
+    float: right;
+    width: 2rem;
+    height: 2.36rem;
+}
+
+.story-img img {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    float: right;
+    margin: 0.3rem 0.3rem 0 0
+}
+
+.detail-box {
+    width: 7.1rem;
+    height: 2.83rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.detail-box ul {
+    float: left;
+    padding: 0.4rem 0 0 0.2rem
+}
+
+.detail-box li {
+    font-size: 0.28rem;
+    line-height: 0.65rem;
+    height: 0.65rem;
+}
+
+.detail-box li img {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.1rem;
+    margin-top: 0.12rem;
+    float: left;
+}
+
+.relevant {
+    width: 6.7rem;
+    height: 2.54rem;
+    padding: 0 0.4rem;
+    background: rgba(247, 247, 247, 1);
+}
+
+.travel-box {
+    background: #fff;
+}
+
+.travel-header {
+    padding: 0 0.2rem;
+    height: 0.99rem;
+    line-height: 0.99rem;
+}
+
+.travel-header h3 {
+    font-size: 0.32rem;
+    margin-left: 0.2rem;
+}
+
+.introduce-box {
+    padding: 0 0.2rem
+}
+
+.introduce {
+    border-top: 0.02rem solid rgba(229, 229, 229, 1);
+    padding: 0.24rem 0.2rem 0.3rem 0.2rem
+}
+
+.img {
+    height: 3.72rem;
+}
+
+.img img {
+    background-size: cover;
+}
+
+.say {
+    padding: 0 0.4rem
+}
+
+.remember-img {
+    float: right;
+    width: 2rem;
+    height: 2.56rem;
+    position: relative;
+}
+
+.remember-info h3 {
+    font-size: 0.36rem;
+    margin: 0.2rem 0 0.1rem 0;
+    color: rgba(51, 51, 51, 1);
+}
+
+.remember-info p {
+    width: 3.91rem;
+    font-size: 0.3rem;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.38rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.remember-img .leader-icon {
+    margin-right: 0.2rem;
+    margin-top: 0.16rem
+}
+
+.remember-img .img {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    float: right;
+    margin: 0.3rem 0.3rem 0;
+}
+
+.remember-menu li {
+    float: left;
+    margin-right: 0.15rem;
+    margin-top: 0.1rem;
+}
+
+.eye {
+    width: 0.28rem;
+    height: 0.19rem;
+    margin-right: 0.06rem;
+}
+
+.message {
+    width: 0.26rem;
+    height: 0.24rem;
+    margin-right: 0.06rem;
+}
+
+.remember-info {
+    width: 3.91rem;
+    float: left;
+}
+
+.remember-menu li span {
+    font-size: 0.24rem;
+    float: left;
+}
+
+.relevant-img {
+    width: 2.62rem;
+    height: 1.76rem;
+    float: right;
+    margin-top: 0.4rem;
+    background: url(../../images/index/banner.png)
+}
+
+.name {
+    width: 1.44rem;
+    height: 0.33rem;
+    font-size: 0.24rem;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.33rem;
+    float: right;
+    margin: 0.15rem 0.3rem 0 0;
+    text-align: center
+}
+
+.level-icon {
+    width: 0.7rem;
+    height: 0.35rem;
+    float: right;
+    position: absolute;
+    top: 0.3rem;
+    background: url(../../images/index/GroupCopy.png) no-repeat;
+    background-size: cover;
+    font-size: 0.18rem;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.38rem;
+    text-align: right;
+    padding: 0 0.3rem 0 0.1rem;
+    margin: 0.05rem 0.53rem 0 0
+}
+
+.follow {
+    width: 1rem;
+    float: right;
+    display: inline-block;
+    font-size: 0.24rem;
+    margin-right: 0.43rem;
+    margin-top: 0.1rem
+}
+
+.follow img {
+    width: 0.26rem;
+    height: 0.24rem;
+    margin-right: 0.04rem;
+    vertical-align: middle;
+    ;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 0.98rem;
+    background: rgba(255, 255, 255, 1);
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    border-top: 0.01rem solid #F2F2F2;
+}
+
+footer ul {
+    height: 0.98rem;
+    display: flex;
+}
+
+footer ul li {
+    height: 100%;
+    text-align: center;
+    flex: 1;
+    font-size: 0.2rem;
+}
+
+footer ul li span {
+    display: block;
+}
+
+footer ul li span:nth-child(2) {
+    line-height: 0.3rem
+}
+
+footer ul li img {
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.1rem
+}

@@ -25,12 +25,14 @@ nav span {
 }
 
 nav button {
-    width: 1rem;
-    height: 0.46rem;
+    display: inline-block;
+    width: 1.4rem;
+    font-size: 0.3rem;
+    height: 0.6rem;
     line-height: 0.4rem;
     border-radius: 0.06rem;
     float: right;
-    margin: 0.27rem 0.2rem;
+    margin: 0.2rem 0.2rem;
 }
 
 .active-box {
@@ -41,6 +43,7 @@ nav button {
 }
 
 .active-box p {
+    width: 7.1rem;
     height: 1rem;
     line-height: 1rem;
     color: rgba(255, 255, 255, 1);
@@ -48,7 +51,8 @@ nav button {
     text-align: left;
     position: absolute;
     bottom: 0;
-    padding: 0 0.2rem
+    padding: 0 0.2rem;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .search-box {
@@ -120,9 +124,13 @@ nav button {
 .search-icon {
     width: 0.35rem;
     height: 0.35rem;
-    top: 0.35rem;
-    left: 0.2rem;
+    top: 0.4rem;
+    left: 0.5rem;
     position: absolute;
+}
+
+input:disabled {
+    background-color: #fff;
 }
 
 .search input {
@@ -140,9 +148,7 @@ nav button {
 }
 
 .info {
-    /* height: 4.59rem; */
     background: #fff;
-    /* margin-bottom: 0.2rem */
 }
 
 .hot {
@@ -179,11 +185,16 @@ nav button {
     margin-bottom: 0.24rem
 }
 
-.title span {
+.title p {
     float: left;
     width: 5.76rem;
     height: 0.5rem;
     font-size: 0.36rem;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
 }
 
 .title button {
@@ -230,7 +241,6 @@ nav button {
 
 .person-info {
     height: 1rem;
-    /* background: #000; */
 }
 
 .person {
@@ -261,7 +271,7 @@ nav button {
 
 .menu li {
     float: right;
-    margin-left: 0.2rem
+    margin-left: 0.15rem
 }
 
 .menu li span {
@@ -271,10 +281,24 @@ nav button {
     float: left;
 }
 
+.menu li img {
+    vertical-align: middle;
+}
+
 .eye {
+    margin-top: 0.4rem;
+    float: left;
     width: 0.28rem;
     height: 0.19rem;
-    margin-right: 0.06rem
+    margin-right: 0.06rem;
+}
+
+.neweye {
+    margin-top: 0.05rem;
+    float: left;
+    width: 0.28rem;
+    height: 0.19rem;
+    margin-right: 0.06rem;
 }
 
 .message {
@@ -285,7 +309,6 @@ nav button {
 
 .story {
     margin-top: 0.2rem;
-    /* background: #fff; */
 }
 
 .special {
@@ -415,13 +438,12 @@ nav button {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    /* margin-top: 0.44rem */
 }
 
 .remember-img {
     float: right;
     width: 2rem;
-    height: 2.56rem;
+    /* height: 2.56rem; */
 }
 
 .remember-img .leader-icon {
@@ -431,13 +453,13 @@ nav button {
 
 .leader-icon {
     width: 1.7rem;
-    height: 0.64rem;
+    height: 0.7rem;
     float: right;
     background: url(../../images/index/1.png) no-repeat;
     background-size: cover;
     font-size: 0.3rem;
     color: rgba(255, 255, 255, 1);
-    line-height: 0.74rem;
+    line-height: 0.8rem;
     text-align: right;
     padding: 0 0.1rem 0 0;
 }
@@ -462,17 +484,18 @@ nav button {
 }
 
 .level-icon {
-    width: 0.6rem;
-    height: 0.35rem;
+    width: 0.75rem;
+    height: 0.36rem;
     float: right;
-    background: url(../../images/index/GroupCopy.png) no-repeat;
-    background-size: cover;
+    display: inline-block;
+    background: url(../../images/index/GroupCopy.png) no-repeat center center;
+    background-size: contain;
     font-size: 0.18rem;
     color: rgba(255, 255, 255, 1);
-    line-height: 0.35rem;
+    line-height: 0.38rem;
     text-align: right;
-    padding: 0 0.1rem 0 0.2rem;
-    margin: 0.05rem 0.53rem 0 0
+    padding: 0 0.3rem 0 0.1rem;
+    margin: 0.03rem 0.53rem 0 0
 }
 
 .remember-menu {
@@ -481,19 +504,18 @@ nav button {
 
 .remember-menu li {
     float: left;
+    height: 0.3rem;
     margin-right: 0.2rem;
     margin-top: 0.1rem
 }
 
 .remember-menu li.right {
     float: right;
-    margin-right: 0.53rem
+    margin-right: 0.65rem
 }
 
 .remember-menu li span {
     font-size: 0.24rem;
-    /* height: 1rem; */
-    /* line-height: 1rem; */
     float: left;
 }
 
@@ -514,7 +536,6 @@ nav button {
     float: left;
     height: 0.5rem;
     margin-right: 0.1rem;
-    /* margin-bottom: 0.2rem */
 }
 
 .gathering-menu li.right {
@@ -571,7 +592,6 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 2;
-    /* box-shadow: 0.1rem 0.1rem #979797; */
     border-top: 0.01rem solid #F2F2F2;
 }
 
@@ -604,5 +624,3 @@ footer ul li img {
     height: 0.41rem;
     margin-top: 0.1rem
 }
-
-2
